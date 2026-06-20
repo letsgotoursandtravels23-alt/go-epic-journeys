@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { ArrowRight, Compass, Crown, Drama, Building2, Trees, Wand2, Shield, Sparkles, MapPinned, HeartHandshake, Star } from "lucide-react";
 import hero from "@/assets/hero-paradise.jpg";
+import heroVideo from "@/assets/hero-video.mp4.asset.json";
 import catCity from "@/assets/cat-city.jpg";
 import catAdv from "@/assets/cat-adventure.jpg";
 import catLux from "@/assets/cat-luxury.jpg";
