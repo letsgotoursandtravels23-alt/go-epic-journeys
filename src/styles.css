@@ -187,11 +187,11 @@
 }
 
 @utility shadow-glow {
-  box-shadow: 0 18px 50px -12px color-mix(in oklab, var(--primary) 55%, transparent);
+  box-shadow: 0 18px 50px -12px color-mix(in oklab, var(--primary) 25%, transparent);
 }
 
 @utility shadow-glow-teal {
-  box-shadow: 0 18px 50px -12px color-mix(in oklab, var(--teal) 60%, transparent);
+  box-shadow: 0 18px 50px -12px color-mix(in oklab, var(--teal) 25%, transparent);
 }
 
 @utility btn-hero {
@@ -205,12 +205,12 @@
   letter-spacing: -0.01em;
   color: white;
   background-image: linear-gradient(120deg, var(--violet), var(--magenta) 55%, var(--hotpink));
-  box-shadow: 0 14px 40px -10px color-mix(in oklab, var(--primary) 55%, transparent);
+  box-shadow: 0 14px 40px -10px color-mix(in oklab, var(--primary) 30%, transparent);
   transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
   &:hover {
     transform: translateY(-2px) scale(1.02);
     filter: brightness(1.05);
-    box-shadow: 0 22px 55px -12px color-mix(in oklab, var(--primary) 70%, transparent);
+    box-shadow: 0 22px 55px -12px color-mix(in oklab, var(--primary) 40%, transparent);
   }
 }
 
