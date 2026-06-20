@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { ArrowRight, Compass, Crown, Drama, Building2, Trees, Wand2, Shield, Sparkles, MapPinned, HeartHandshake, Star } from "lucide-react";
 import hero from "@/assets/hero-paradise.jpg";
+import heroVideo from "@/assets/hero-video.mp4.asset.json";
 import catCity from "@/assets/cat-city.jpg";
 import catAdv from "@/assets/cat-adventure.jpg";
 import catLux from "@/assets/cat-luxury.jpg";
@@ -46,11 +47,12 @@ function Index() {
       <Toaster richColors position="top-center" />
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
-        <img
-          src={hero}
-          alt="Cinematic tropical sunset over turquoise ocean cliffs"
-          width={1920}
-          height={1080}
+        <video
+          src={heroVideo.url}
+          autoPlay
+          muted
+          loop
+          playsInline
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/45 via-black/20 to-background" />
