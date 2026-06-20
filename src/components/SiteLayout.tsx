@@ -1,7 +1,8 @@
 import { useState, type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
-import { Menu, X, Plane, MessageCircle, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
+import { Menu, X, MessageCircle, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
 import { EnquiryDialog } from "./EnquiryDialog";
+import logoAsset from "@/assets/letsgo-logo.asset.json";
 
 const NAV = [
   { to: "/", label: "Home" },
@@ -20,18 +21,14 @@ export function SiteLayout({ children }: { children: ReactNode }) {
     <div className="min-h-screen bg-background text-foreground">
       <header className="sticky top-0 z-40 border-b border-border/40 bg-background/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5">
-          <Link to="/" className="group flex items-center gap-2">
-            <span className="bg-gradient-sunset shadow-glow grid size-10 place-items-center rounded-2xl text-white transition-transform group-hover:rotate-12">
-              <Plane className="size-5 -rotate-45" />
-            </span>
-            <span className="leading-tight">
-              <span className="block text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-                Lets Go
-              </span>
-              <span className="text-gradient-sunset block text-base font-extrabold">
-                Tours & Travels
-              </span>
-            </span>
+          <Link to="/" className="group flex items-center gap-2" aria-label="Let's Go Tours & Travels home">
+            <img
+              src={logoAsset.url}
+              alt="Let's Go Tours & Travels"
+              className="h-10 w-auto md:h-12 transition-transform group-hover:scale-[1.03]"
+              width={180}
+              height={48}
+            />
           </Link>
 
           <nav className="hidden items-center gap-1 md:flex">
@@ -94,9 +91,9 @@ export function SiteLayout({ children }: { children: ReactNode }) {
         <div className="bg-gradient-tropic absolute -right-24 top-10 size-[24rem] rounded-full opacity-25 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2">
-              <span className="bg-gradient-sunset grid size-10 place-items-center rounded-2xl">
-                <Plane className="size-5 -rotate-45 text-white" />
+            <div className="flex items-center gap-3">
+              <span className="grid place-items-center rounded-2xl bg-white p-2">
+                <img src={logoAsset.url} alt="Let's Go Tours & Travels" className="h-9 w-auto" />
               </span>
               <span className="text-xl font-extrabold tracking-tight">Lets Go Tours & Travels</span>
             </div>
