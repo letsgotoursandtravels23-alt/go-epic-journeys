@@ -68,32 +68,32 @@
   --card-foreground: oklch(0.16 0.03 300);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.16 0.03 300);
-  /* logo hot magenta-pink primary */
-  --primary: oklch(0.62 0.28 350);
+  /* soft elegant pink primary */
+  --primary: oklch(0.70 0.10 350);
   --primary-foreground: oklch(0.99 0 0);
-  /* logo violet purple secondary */
-  --secondary: oklch(0.55 0.24 295);
+  /* soft elegant purple secondary */
+  --secondary: oklch(0.60 0.09 295);
   --secondary-foreground: oklch(0.99 0 0);
   --muted: oklch(0.96 0.02 60);
   --muted-foreground: oklch(0.45 0.03 300);
-  /* logo cyan-blue accent */
-  --accent: oklch(0.72 0.16 230);
-  --accent-foreground: oklch(0.15 0.04 260);
+  /* soft elegant light-blue accent */
+  --accent: oklch(0.80 0.06 230);
+  --accent-foreground: oklch(0.18 0.03 260);
   --destructive: oklch(0.6 0.25 25);
   --destructive-foreground: oklch(0.99 0 0);
   --border: oklch(0.9 0.02 320);
   --input: oklch(0.94 0.02 320);
-  --ring: oklch(0.62 0.28 350);
-  /* logo dots: magenta, violet, cyan, yellow, hot-pink */
-  --magenta: oklch(0.62 0.28 350);
-  --violet: oklch(0.55 0.24 295);
-  --cyan: oklch(0.72 0.16 230);
-  --lemon: oklch(0.86 0.19 95);
-  --hotpink: oklch(0.68 0.25 5);
+  --ring: oklch(0.70 0.10 350);
+  /* soft logo palette */
+  --magenta: oklch(0.70 0.10 350);
+  --violet: oklch(0.60 0.09 295);
+  --cyan: oklch(0.80 0.06 230);
+  --lemon: oklch(0.92 0.08 95);
+  --hotpink: oklch(0.78 0.08 5);
   /* legacy aliases kept for existing utilities */
-  --sunset: oklch(0.68 0.25 5);
-  --coral: oklch(0.62 0.28 350);
-  --teal: oklch(0.72 0.16 230);
+  --sunset: oklch(0.78 0.08 5);
+  --coral: oklch(0.70 0.10 350);
+  --teal: oklch(0.80 0.06 230);
   --ink: oklch(0.14 0.03 300);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
