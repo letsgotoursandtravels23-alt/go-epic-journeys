@@ -4,6 +4,8 @@ import bali from "@/assets/pkg-bali.jpg";
 import patagonia from "@/assets/pkg-patagonia.jpg";
 import dubai from "@/assets/pkg-dubai.jpg";
 import kyoto from "@/assets/pkg-kyoto.jpg";
+import wildlife from "@/assets/cat-wildlife.jpg";
+import custom from "@/assets/cat-custom.jpg";
 
 export type PackageType = "Adventure" | "Luxury" | "City" | "Culture" | "Wildlife" | "Custom";
 
@@ -97,7 +99,7 @@ export const PACKAGES: TourPackage[] = [
     id: "kenya-safari",
     title: "Big Five Kenya Safari",
     location: "Maasai Mara · Amboseli",
-    image: dubai, // placeholder reuse not great — replaced below
+    image: wildlife,
     type: "Wildlife",
     duration: 8,
     priceFrom: 4490,
@@ -109,7 +111,7 @@ export const PACKAGES: TourPackage[] = [
     id: "custom-anywhere",
     title: "Design Your Own Expedition",
     location: "Anywhere on the map",
-    image: iceland,
+    image: custom,
     type: "Custom",
     duration: 0,
     priceFrom: 0,
