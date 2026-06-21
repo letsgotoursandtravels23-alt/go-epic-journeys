@@ -54,10 +54,10 @@ function Contact() {
         {/* Channels */}
         <div className="space-y-4">
           {[
-            { icon: Phone, t: "Hotline", v: "+1 (555) 010-7777", s: "Mon–Sun, 24/7" },
-            { icon: MessageCircle, t: "WhatsApp", v: "+1 (555) 010-9999", s: "Fastest replies" },
-            { icon: Mail, t: "Email", v: "hello@letsgotours.co", s: "We reply within 4 hours" },
-            { icon: MapPin, t: "HQ", v: "228 Wanderlust Ave, Suite 7", s: "Brooklyn, NY 11201" },
+            { icon: Phone, t: "Hotline", v: "9500488055 / 8939588055", s: "Mon–Sun, 24/7" },
+            { icon: MessageCircle, t: "WhatsApp", v: "8939588055", s: "Fastest replies" },
+            { icon: Mail, t: "Email", v: "letsgotoursandtravels23@gmail.com", s: "We reply within 4 hours" },
+            { icon: MapPin, t: "HQ", v: "Shri Krishnaswamy Matric School, No 5635 opt to", s: "Ayappakkam, Chennai, Tamil Nadu 600077" },
           ].map(({ icon: Icon, t, v, s }) => (
             <div key={t} className="group flex items-start gap-4 rounded-3xl border border-border bg-card p-5 transition hover:-translate-y-0.5 hover:shadow-glow">
               <div className="bg-gradient-sunset grid size-12 shrink-0 place-items-center rounded-2xl text-white">
