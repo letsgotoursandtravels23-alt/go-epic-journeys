@@ -159,10 +159,9 @@ function Index() {
                 {Array.from({ length: 5 }).map((_, i) => <Star key={i} className="size-5 fill-current" />)}
               </div>
               <p className="mt-4 text-2xl font-extrabold leading-snug md:text-3xl">
-                "Booked Patagonia on a whim. Came back a different human. The crew thought
-                of details I didn't even know I'd want."
+                "I recently booked my Maldives vacation with Let's Go Tour & Travels, and it was an absolutely amazing experience! Their team was extremely professional, responsive, and attentive to every detail."
               </p>
-              <div className="mt-5 text-white/85">— Priya R., trekked Torres del Paine</div>
+              <div className="mt-5 text-white/85">— Varsha S., Maldives getaway</div>
             </div>
             <div className="flex flex-wrap gap-3 md:justify-end">
               <Link to="/testimonials" className="btn-ghost-vibrant !text-ink">Read more stories</Link>
