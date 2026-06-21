@@ -122,8 +122,8 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           <div>
             <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-white/60">Crew HQ</h4>
             <ul className="mt-4 space-y-2.5 text-sm text-white/80">
-              <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 text-secondary" /> +1 (555) 010-7777</li>
-              <li className="flex items-start gap-2"><Mail className="size-4 mt-0.5 text-secondary" /> hello@letsgotours.co</li>
+              <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 text-secondary" /> 9500488055 / 8939588055</li>
+              <li className="flex items-start gap-2"><Mail className="size-4 mt-0.5 text-secondary" /> letsgotoursandtravels23@gmail.com</li>
               <li className="flex items-start gap-2"><MessageCircle className="size-4 mt-0.5 text-secondary" /> 24/7 WhatsApp concierge</li>
             </ul>
           </div>
