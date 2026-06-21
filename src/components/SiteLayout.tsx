@@ -139,7 +139,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       {/* Floating enquiry button */}
       <button
         onClick={() => setEnquiry(true)}
-        className="bg-gradient-sunset shadow-glow fixed bottom-6 right-6 z-30 flex items-center gap-2 rounded-full px-5 py-3.5 text-sm font-bold text-white transition hover:scale-105"
+        className="bg-gradient-sunset shadow-glow fixed bottom-12 right-6 z-30 flex items-center gap-2 rounded-full px-5 py-3.5 text-sm font-bold text-white transition hover:scale-105"
         style={{ animation: "float-y 3.5s ease-in-out infinite" }}
       >
         <MessageCircle className="size-5" />
