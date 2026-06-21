@@ -131,7 +131,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
         <div className="relative border-t border-white/10">
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-white/50 md:flex-row">
             <span>© {new Date().getFullYear()} Lets Go Tours and Travels. Wander loud.</span>
-            <span>Crafted with caffeine, jetlag & sunsets.</span>
+            <span className="flex items-center gap-1">Website designed by <a href="https://instagram.com/harrysrichardson" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">@harrysrichardson</a> (Instagram)</span>
           </div>
         </div>
       </footer>
